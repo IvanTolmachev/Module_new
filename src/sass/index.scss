@@ -1,7 +1,14 @@
 @import './common';
 // @import './example';
+@import './base/base';
+@import './base/variables';
+@import './base/visuallyHiden';
 @import './header';
 @import './hero';
 @import './benefis';
 @import './soluction';
 @import './cases';
+@import './article';
+@import './team';
+@import './callback';
+@import './footer';
