@@ -1,12 +1,13 @@
 @import './common';
 // @import './example';
-@import './base/base';
-@import './base/variables';
-@import './base/visuallyHiden';
+@import './variables';
+@import './base';
+@import './container';
+@import './visuallyHiden';
 @import './header';
 @import './hero';
 @import './benefis';
-@import './soluction';
+@import './solution';
 @import './cases';
 @import './article';
 @import './team';

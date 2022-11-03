@@ -1,3 +1,62 @@
-.header{
-    background-color: teal;
+.header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  // background-color: teal;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  line-height: calc(42 / 35);
+  color: $secondaryTextColor;
+  &-span {
+    margin-right: 10px;
+    color: $primaryLogoTextColor;
+  }
+}
+
+.header__logo-icon {
+  margin-right: 10px;
+  fill: $primaryLogoTextColor;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__list {
+  display: flex;
+  gap: 38px;
+}
+
+.header__link {
+  position: relative;
+  color: $secondaryTextColor;
+  padding: 20px 0;
+  &:hover,
+  :focus {
+    font-weight: 700;
+    color: $primaryLogoTextColor;
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: $primaryLogoTextColor;
+    }
+  }
 }
