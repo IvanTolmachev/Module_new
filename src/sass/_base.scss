@@ -1,7 +1,8 @@
 body {
   font-family: $mainFont;
   font-size: $primaryFontSize;
-  letter-spacing: 0.03em;
+  font-weight: 400;
+  // letter-spacing: 0.03em;
   background-color: $bodyBgColor;
   color: $primaryTextColor;
 }
