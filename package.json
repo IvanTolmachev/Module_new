@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IvanTolmachev.github.io/Module_new",
+  "homepage": "https://IvanTolmachev.github.io/FinanceLadger",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Module_new/"
+    "build": "parcel build src/*.html --public-url /FinanceLadger/"
   },
   "repository": {
     "type": "git",
